@@ -6,7 +6,7 @@ export const drawRect = (detections, ctx) => {
     const text = prediction["class"];
 
     // definiendo estilios
-    const color = "blue";
+    const color = "green";
     ctx.strokeStyle = color;
     ctx.font = "16px Arial";
     ctx.fillStyle = color;
